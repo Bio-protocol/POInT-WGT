@@ -1,0 +1,23 @@
+#NEXUS
+
+Begin trees; 
+ [!
+>Tree from search_WGX_assigns (fixed tree)
+>WGT_3_genome_distinct
+>ToSingle1: 0.8145
+>ToSingle2: 0.5802
+>ToSingle3: 0.5193
+>ToGen1Gen3: 0.6985
+>ToGen2Gen3: 0.4973
+>SwitchProb: 0.0289
+>Final ln likelihood: -68856.7978
+]
+	Translate
+	1 'Brassica_rapa',
+	2 'Brassica_oleracea',
+	3 'Sinapis_alba',
+	4 'Crambe_hispanica_v3'
+	;
+
+tree PAUP_1 = [&R] (((1:0.168999,2:0.144246):0.0693571,4:0.500146):0.131332,3:0.240181):0.667353;
+End;

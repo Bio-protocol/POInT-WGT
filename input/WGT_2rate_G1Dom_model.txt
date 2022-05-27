@@ -1,0 +1,29 @@
+WGT_DomGenome
+Hierarchical	3
+#NumStates
+7
+#NumParams
+4
+#StateNames
+Tripl	1	1	1
+Dupl_1_2	1	1	0
+Dupl_1_3	1	0	1
+Dupl_2_3	0	1	1
+Copy1	1	0	0
+Copy2	0	1	0
+Copy3	0	0	1
+#ParameterDescripts
+ToSingle1	ZERO_TO_INF	0.8090
+ToSingle2_3	ZERO_TO_INF     0.5761
+ToGen2Gen3	ZERO_TO_ONE	0.4888
+SwitchProb	ZERO_TO_ONE	0.0289
+#Matrix
+Null	Default	Default	ToGen2Gen3	Zero	Zero	Zero
+Zero	Null	Zero	Zero	ToSingle1	ToSingle2_3	Zero
+Zero	Zero	Null	Zero	ToSingle1	Zero	ToSingle2_3
+Zero	Zero	Zero	Null	Zero	ToSingle2_3	ToSingle2_3
+Zero	Zero	Zero	Zero	Null	Zero	Zero
+Zero	Zero	Zero	Zero	Zero	Null	Zero
+Zero	Zero	Zero	Zero	Zero	Zero	Null
+#OtherLimitations
+rootstate	Tripl

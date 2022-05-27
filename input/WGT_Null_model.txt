@@ -1,0 +1,27 @@
+WGT_Triple_Loss
+Hierarchical	3
+#NumStates
+7
+#NumParams
+2
+#StateNames
+Tripl	1	1	1
+Dupl_1_2	1	1	0
+Dupl_1_3	1	0	1
+Dupl_2_3	0	1	1
+Copy1	1	0	0
+Copy2	0	1	0
+Copy3	0	0	1
+#ParameterDescripts
+ToSingleRate	ZERO_TO_INF	0.98
+SwitchProb	ZERO_TO_ONE	0.027
+#Matrix
+Null	Default	Default	Default	Zero	Zero	Zero
+Zero	Null	Zero	Zero	ToSingleRate	ToSingleRate	Zero
+Zero	Zero	Null	Zero	ToSingleRate	Zero	ToSingleRate
+Zero	Zero	Zero	Null	Zero	ToSingleRate	ToSingleRate
+Zero	Zero	Zero	Zero	Null	Zero	Zero
+Zero	Zero	Zero	Zero	Zero	Null	Zero
+Zero	Zero	Zero	Zero	Zero	Zero	Null
+#OtherLimitations
+rootstate	Tripl

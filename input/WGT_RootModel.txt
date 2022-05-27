@@ -1,0 +1,28 @@
+WGT_Root_Model
+Hierarchical	3
+#NumStates
+7
+#NumParams
+3
+#StateNames
+Tripl	1	1	1
+Dupl_1_2	1	1	0
+Dupl_1_3	1	0	1
+Dupl_2_3	0	1	1
+Copy1	1	0	0
+Copy2	0	1	0
+Copy3	0	0	1
+#ParameterDescripts
+To_Tripl	ZERO_TO_INF	1.0
+To_D13	ZERO_TO_INF	1.0
+To_D23	ZERO_TO_INF	1.0
+#Matrix
+Null	Zero	Zero	Zero	Zero	Zero	Zero
+To_Tripl	Null	To_D13	To_D23	Zero	Zero	Zero
+Zero	Zero	Null	Zero	Zero	Zero	Zero
+Zero	Zero	Zero	Null	Zero	Zero	Zero
+Zero	Zero	Zero	Zero	Null	Zero	Zero
+Zero	Zero	Zero	Zero	Zero	Null	Zero
+Zero	Zero	Zero	Zero	Zero	Zero	Null
+#OtherLimitations
+rootstate	Dupl_1_2

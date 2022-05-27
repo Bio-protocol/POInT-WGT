@@ -1,0 +1,31 @@
+WGT_3_genome_distinct
+Hierarchical	3
+#NumStates
+7
+#NumParams
+6
+#StateNames
+Tripl	1	1	1
+Dupl_1_2	1	1	0
+Dupl_1_3	1	0	1
+Dupl_2_3	0	1	1
+Copy1	1	0	0
+Copy2	0	1	0
+Copy3	0	0	1
+#ParameterDescripts
+ToSingle1	ZERO_TO_INF	0.8090
+ToSingle2	ZERO_TO_INF     0.5761
+ToSingle3	ZERO_TO_INF     0.5006
+ToGen1Gen3	ZERO_TO_ONE	0.6951
+ToGen2Gen3	ZERO_TO_ONE	0.4888
+SwitchProb	ZERO_TO_ONE	0.0289
+#Matrix
+Null	Default	ToGen1Gen3	ToGen1Gen3*ToGen2Gen3	Zero	Zero	Zero
+Zero	Null	Zero	Zero	ToSingle1	ToSingle2	Zero
+Zero	Zero	Null	Zero	ToSingle1	Zero	ToSingle3
+Zero	Zero	Zero	Null	Zero	ToSingle2	ToSingle3
+Zero	Zero	Zero	Zero	Null	Zero	Zero
+Zero	Zero	Zero	Zero	Zero	Null	Zero
+Zero	Zero	Zero	Zero	Zero	Zero	Null
+#OtherLimitations
+rootstate	Tripl

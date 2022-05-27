@@ -13,9 +13,10 @@
 ### Optimal phylogenetic topology: BrBoSaCh_WGT_3rate_G1Dom_M2Opt3_Top3.tre
 
 ### WGT models for use with POInT:
-![](graphs/WGT_models.png)
 #### WGT Null: WGT_Null_model.txt
 #### WGT 1Dom: WGT_2rate_G1Dom_model.txt
 #### WGT 1DomG3: WGT_3rate_G1Dom_model.txt
 #### Root-spec. WGT 1DomG3: WGT_3rate_G1Dom_brnspec_model.txt
 #### WGT 1DomG3 + Root: WGT_RootModel.txt
+
+![](https://github.com/Bio-protocol/POInT-WGT/graphs/WGT_models.png)

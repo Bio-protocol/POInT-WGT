@@ -40,6 +40,8 @@ The input files for this case study are available on [Figshare](https://doi.org/
 ## WGT models
 From Figure 2 in [Hao et al. (2021)](https://genome.cshlp.org/content/31/5/799).
 
+![](graphs/WGT_models.png)
+
 1. WGT Null model scenario: Null model with no biased fractionation. 
 ```
 search_WGX_assigns -d:3 -g:Brassica_rapa_POInT_geneorders.txt -g:Brassica_oleracea_POInT_geneorders.txt -g:Sinapis_alba_POInT_geneorders.txt -g:Crambe_hispanica_v3_POInT_geneorders.txt -o:FourSpp_M2Opt3.txt -m:WGT_Null_model.txt -t: BrBoSaCh_WGT_3rate_G1Dom_M2Opt3_Top3.tre

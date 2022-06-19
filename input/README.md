@@ -18,5 +18,3 @@
 #### WGT 1DomG3: WGT_3rate_G1Dom_model.txt
 #### Root-spec. WGT 1DomG3: WGT_3rate_G1Dom_brnspec_model.txt
 #### Root model: WGT_RootModel.txt
-
-![](https://github.com/Bio-protocol/POInT-WGT/graphs/WGT_models.png)

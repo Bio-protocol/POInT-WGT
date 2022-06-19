@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-# Modeling ancient whole-genome triplication with POInT.
+# Modeling ancient whole-genome triplication with POInT
 
 [POInT](https://github.com/gconant0/POInT) stands for the **P**olyploid **O**rthology **In**ference **T**ool. Using POInT, we modeled the whole-genome triplication (WGT) events shared by the members of the tribe Brassiceae ([Hao et al., 2021](https://genome.cshlp.org/content/31/5/799)). Here we will show the steps for different WGT model comparisons.
 

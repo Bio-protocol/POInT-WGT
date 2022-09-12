@@ -9,7 +9,7 @@
 The latest version of the POInT software is available on [GitHub](https://github.com/gconant0/POInT) or on the [lab website](http://conantlab.org/POInT/POInT.html). For detailed installation guide, please go to the software [installation page](http://conantlab.org/POInT/INSTALL). To download and compile the software:
 ```
 wget http://conantlab.org/POInT/POInT.tar
-tar xvf POInT.tar.gz
+tar xvf POInT.tar
 cd POInT
 # To compile the OpenMP parallel version
 ./configure.pl -omp

@@ -33,7 +33,7 @@ Usage: POInT -g:<genome file> -g:<genome file> -o:<ortholog file> -m:<Model file
 
 ## Input Data
 
-The input files for this case study are available on [Figshare](https://doi.org/10.6084/m9.figshare.12277832).
+The input files for this case study are available on [Figshare](https://doi.org/10.6084/m9.figshare.12277832) and [here](https://github.com/Bio-protocol/POInT-WGT/tree/master/input).
 
 
 

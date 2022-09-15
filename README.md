@@ -31,7 +31,7 @@ You should see the following:
 Usage: POInT -g:<genome file> -g:<genome file> -o:<ortholog file> -m:<Model file>  (-r:<Root model file>) (-t:treefile) (-p:<posteriortrackprobs file>) (-c:<conditional probabilities file> (-no_opt) (-s:<start>:<end>) (-zerolengthfixed) (-x:#TreestoSave)
 ```
 
-## Input Data
+## Input data
 
 The input files for this case study are available on [Figshare](https://doi.org/10.6084/m9.figshare.12277832) and [here](https://github.com/Bio-protocol/POInT-WGT/tree/master/input).
 
@@ -62,6 +62,10 @@ POInT -d:3 -g:Brassica_rapa_POInT_geneorders.txt -g:Brassica_oleracea_POInT_gene
 ```
 POInT -d:3 -g:Brassica_rapa_POInT_geneorders.txt -g:Brassica_oleracea_POInT_geneorders.txt -g:Sinapis_alba_POInT_geneorders.txt -g:Crambe_hispanica_v3_POInT_geneorders.txt -o:FourSpp_M2Opt3.txt -m: WGT_3rate_G1Dom_model.txt -r:WGT_RootModel.txt -t: BrBoSaCh_WGT_3rate_G1Dom_M2Opt3_Top3.tre
 ```
+
+## Expected results
+
+The likelihoods for different WGT models were compared using likelihood ratio tests shown in the above figure. The significant likelihood increase from model 1 to model 2, and from model 2 to model 3 showed strong evidence of biased fractionation in the three subgenomes. We also found strong support of the two-step hexaploidy model, suggesting that the first two subgenomes, MF1 and Mf2 merged first, and the third subgenome LF joined after a certain amount of time. All of the completed ancient polyploidy analyses can be visualized using an online tool called the [POInTbrowse](http://wgd.statgen.ncsu.edu/). Users will be able to browse the Gene retention/loss pattens in different subgenomes with simple clicks. 
 
 ## License
 POInT is a free and open source software, licensed under [GPLv3](https://github.com/github/choosealicense.com/blob/gh-pages/_licenses/gpl-3.0.txt).
